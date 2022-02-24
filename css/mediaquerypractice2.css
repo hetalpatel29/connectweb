@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.fontstyle {
+    font-family: 'Montserrat';
+}
+
+.main {
+    width: 100%;
+}
+
+h1 {
+    font-size: 34px;
+    color: #383B61;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #383B61;
+}
+h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #5c5c5c;
+}
+h4{
+    font-size: 13px;
+    font-weight: 600;
+    color: #21bf73;
+}
+
+p {
+    color: #818198;
+    font-size: 16px;
+    font-weight: 400;
+}
+.buttongreen{
+    height: 40px;
+    width: 35%;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: rgb(33, 191, 115);
+    color: rgb(255, 255, 255);
+    border: 2px solid  rgb(33, 191, 115);
+}
+.buttonblue{
+    height: 40px;
+    width: 35%;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(52, 152, 219);
+    border: 2px solid  rgb(52, 152, 219);
+}
+
+.raw{
+    width: 100%;
+}
+/* menubarsection */
+
+nav {
+    width: 100%;
+    vertical-align: middle;
+    line-height: 60px;
+    color: #8a8a8a;
+    background-color: white;
+}
+
+.nav-brand {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333347
+}
+
+#navbar {
+    float: right;
+    display: inline-block;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar ul li {
+    float: left;
+    width: 90px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
+#navbar button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #8a8a8a;
+    background: transparent;
+    font-weight: bold;
+}
+
+.toggle-button {
+    width: 50px;
+    height: 40px;
+    border: 2px solid #8a8a8a;
+    background: transparent;
+    display: none;
+    border-radius: 4PX;
+}
+
+.toggle-button img {
+    width: 40px;
+    height: 40px;
+    color: grey;
+}
+
+
+
+/* menubarsection end */
+
+
+/* content */
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* home page */
+.homepagemain {
+    width: 100%;
+    background: #f0f5f9;
+    padding: 150px 0 100px 0;
+    overflow: auto;
+}
+
+.homepageleft {
+    width: 40%;
+    float: left;
+}
+.homepageright{
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.homepageright img{
+    width:600px;
+    height: 350px;
+}
+.homepageh1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.homebtndiv{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+
+/* home page end */
+/* services section */
+.services{
+    width: 100%;
+    overflow: auto;
+    padding: 100px 0px 100px 0px;
+}
+.serviceheading{
+    width: 40%;
+}
+.servicebox{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding:  10px;
+}
+.servicesubbox{
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding:40px ;
+}
+.servicebox img{
+    width: 80px;
+    height: 80px;
+}
+.serviceh1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: 900 !important;
+}
+.serviceh3{
+    margin: 30px 0px 20px 0px;
+}
+.servicep{
+    line-height: 1.5;
+}
+.servicep{
+    margin-bottom: 40px;
+}
+.serviceboxbackground1 {
+    background: #fff2e5;
+}
+
+.serviceboxbackground2 {
+    background: #f8f9fa;
+}
+
+.serviceboxbackground3 {
+    background: #f0f5f9;
+
+}
+/* services section end */
+/* ourqualities section */
+.ourqualities{
+width: 80%;
+margin: auto;
+overflow: auto;
+background: #f0f5f9;
+padding: 50px 0px 5px 0px;
+}
+
+.ourqualitiesbox{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+}
+.ourqualitiesbox img{
+    width: 100%;
+    height: 250px;
+}
+.ourqualitiesbox nav {
+
+background: #f0f5f9;
+margin-left: 20px;
+
+}
+
+.ourqualitiesbox nav ul {
+    list-style-type: none;
+}
+
+.ourqualitiesbox nav ul li {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.ourqualitiesbox nav ul li img {
+    height: 20px;
+    width: 20px;
+}
+
+.ourqualitiesbox nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.ourqualitiesboxh1{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.ourqualitiesboxp{
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+
+
+}
+/* ourqualities section end */
+/* ourresult section */
+.ourresult{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+.ourresulth1{
+    margin: 50px 0px 0px 0px ;
+}
+.resultbox{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+.resultsubbox{
+    width: 100%;
+    padding-top: 50px;
+}
+.resultsubbox img {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+.resultsubbox h5{
+    width: 100%;
+    font-size: 34px;
+    color: #383B61;
+    font-weight: 800;
+}
+.ourresultp{
+    margin: 10px 0px 10px 0px;
+}
+/* ourresult section end */
+
+
+
+/* content end */
+
+@media screen and (max-width:426px) {
+    nav {}
+    #navbar {
+        visibility: hidden;
+        width: 100%;
+        height: 400px;
+        position: fixed;
+        text-align: center;
+        top: -200px;
+        z-index: -2;
+    }
+    #navbar ul {
+        margin: auto;
+    }
+    #navbar ul li {
+        float: none;
+        text-align: left;
+    }
+    .toggle-button {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+    }
+    #navbar button {
+        width: 150px;
+        font-size: 12px;
+    }
+    .homepagemain{
+        padding: 50px 0px 50px 0px;
+    }
+    .homebtndiv{
+        width: 500px;
+        float: none;
+    }
+    .homepageleft{
+        width: 100%;
+    }
+    .homepageright{
+        width: 100%;
+    }
+    .homepageright img{
+        width: 300px;
+    }
+    .serviceheading{
+        width: 100%;
+    }
+    .servicebox{
+        width: 100%;
+
+    }
+
+
+    .ourqualitiesbox{
+        width: 100%;
+    }
+    .ourqualitiesraw{
+        margin-bottom: 50px;
+    }
+    .resultbox{
+        width: 50%;
+        padding: 0px;
+    }
+
+}
